@@ -92,6 +92,8 @@ const App = () => {
 npm start
 ```
 
+Now your webapp is running at `http://localhost:8000`.
+
 ## First button
 
 Replace `StateAlignExample` by `SimpleButton`.
