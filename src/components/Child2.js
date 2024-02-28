@@ -1,4 +1,4 @@
-import { Input } from "@airbus/components-react";
+import TextField from '@mui/material/TextField';
 
 const Test3 = ({ setValue }) => {
   const changeValue = (e) => {
@@ -7,7 +7,7 @@ const Test3 = ({ setValue }) => {
 
   return (
     <div>
-      <Input placeholder="Placeholder" onChange={(e) => changeValue(e)} />
+      <TextField variant="outlined" onChange={(e) => changeValue(e)}/>
     </div>
   );
 };
